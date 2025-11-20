@@ -1,0 +1,20 @@
+GENERIC KEYWORDs
+openBrowser
+openExistingBrowser
+navigates
+click
+type
+select
+getText
+
+
+VALIDATION KEYWORD
+ValidateTitle
+ValidateText
+ValidateElementPresent
+
+
+APPLICATION DEPENDENT KEYWORD
+login
+selectDateFromCalender
+verifyDealAdded

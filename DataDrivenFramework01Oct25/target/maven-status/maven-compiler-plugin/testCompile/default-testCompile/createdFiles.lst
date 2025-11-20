@@ -1,0 +1,8 @@
+testcases/snov/CreateLead.class
+testcases/snov/Session.class
+testbase/BaseTest.class
+testcases/snov/LoginCheck.class
+testcases/snov/CreateLead2.class
+testcases/snov/LeadManagement.class
+listener/MyTestNGListener.class
+testcases/snov/CreateLead3.class
