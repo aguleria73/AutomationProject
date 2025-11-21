@@ -1,0 +1,24 @@
+[
+  {
+	"id": "1",
+    "name": "Akshay kumar",
+    "expertise": "Acting",
+    "city_of_birth": "Jodhpur"
+  },
+  {
+	"id": "2",
+    "name": "Ashish Guleria",
+    "expertise": "Testing"
+  },
+  {
+	"id": "3",
+    "name": "Deepak Rana",
+    "city_of_birth": "Saharanpur"
+  },
+  {
+	"id": "4",
+    "Name": "Salmman",
+    "home_town": "Uttra Pradesh",
+    "age": "30"
+  }
+]

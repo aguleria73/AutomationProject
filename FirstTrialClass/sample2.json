@@ -1,0 +1,57 @@
+{
+  "firstName": "Joe",
+  "lastName": "Jackson",
+  "gender": "male",
+  "age": "28",
+  "address": {
+    "streetAddress": "101",
+    "city": "San Diego",
+    "state": "CA",
+    "pincode":"123456"
+  },
+  "phoneNumbers": [
+    {
+      "type": "home",
+      "number": "7349282382"
+    },
+    {
+      "type": "office",
+      "number": "4343455666"
+    },
+    {
+      "type": "office2",
+      "number": "64576587658"
+    },
+    {
+      "type": "office3",
+      "number": "99999999999"
+    },
+    {
+      "type": "office4",
+      "number": "77777777777"
+    }
+  ],
+  "phoneNumbersPrivate": [
+    {
+      "type": "home",
+      "number": "7349282382"
+    },
+    {
+      "type": "office",
+      "number": "4343455666"
+    },
+    {
+      "type": "office2",
+      "number": "64576587658"
+    },
+    {
+      "type": "office3",
+      "number": "99999999999"
+    },
+    {
+      "type": "office4",
+      "number": "77777777777"
+    }
+  ]
+
+}
