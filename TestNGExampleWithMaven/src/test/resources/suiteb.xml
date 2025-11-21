@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="CreateUser Test">
+    <classes>
+      <class name="TestCases.suiteB.CreateUser"/>
+    </classes>
+  </test> <!-- Test -->
+   <test name=" Test1 Test">
+    <classes>
+      <class name="TestCases.suiteB.Test1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="0.255" tests="8" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/apple/eclipse-workspace-javaselenium/TestNGExampleWithMaven/target/test-classes:/Users/apple/eclipse-workspace-javaselenium/TestNGExampleWithMaven/target/classes:/Users/apple/.m2/repository/org/testng/testng/7.9.0/testng-7.9.0.jar:/Users/apple/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/apple/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/apple/.m2/repository/commons-io/commons-io/2.16.1/commons-io-2.16.1.jar:/Users/apple/.m2/repository/org/slf4j/slf4j-api/2.0.7/slf4j-api-2.0.7.jar:/Users/apple/.m2/repository/org/slf4j/slf4j-simple/2.0.17/slf4j-simple-2.0.17.jar:/Users/apple/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/Users/apple/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/apple/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/apple/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/apple/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:/Users/apple/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/apple/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/apple/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/apple/.m2/repository/org/apache/poi/poi/3.7/poi-3.7.jar:/Users/apple/.m2/repository/org/apache/poi/poi-ooxml/3.7/poi-ooxml-3.7.jar:/Users/apple/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/Users/apple/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar:/Users/apple/.m2/repository/org/apache/poi/poi-ooxml-schemas/3.7/poi-ooxml-schemas-3.7.jar:/Users/apple/.m2/repository/org/apache/geronimo/specs/geronimo-stax-api_1.0_spec/1.0/geronimo-stax-api_1.0_spec-1.0.jar:/Users/apple/.m2/repository/org/dom4j/dom4j/2.1.3/dom4j-2.1.3.jar:/Users/apple/.m2/repository/org/apache/xmlbeans/xmlbeans/2.3.0/xmlbeans-2.3.0.jar:/Users/apple/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/Users/apple/.m2/repository/org/seleniumhq/selenium/selenium-java/4.27.0/selenium-java-4.27.0.jar:/Users/apple/.m2/repository/org/seleniumhq/selenium/selenium-api/4.27.0/selenium-api-4.27.0.jar:/Users/apple/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/apple/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.27.0/selenium-chrome-driver-4.27.0.jar:/Users/apple/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/apple/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.27.0/selenium-chromium-driver-4.27.0.jar:/Users/apple/.m2/repository/org/seleniumhq/selenium/selenium-json/4.27.0/selenium-json-4.27.0.jar:/Users/apple/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.27.0/selenium-manager-4.27.0.jar:/Users/apple/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v129/4.27.0/selenium-devtools-v129-4.27.0.jar:/Users/apple/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v130/4.27.0/selenium-devtools-v130-4.27.0.jar:/Users/apple/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v131/4.27.0/selenium-devtools-v131-4.27.0.jar:/Users/apple/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.27.0/selenium-devtools-v85-4.27.0.jar:/Users/apple/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.27.0/selenium-edge-driver-4.27.0.jar:/Users/apple/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.27.0/selenium-firefox-driver-4.27.0.jar:/Users/apple/.m2/repository/org/seleniumhq/selenium/selenium-http/4.27.0/selenium-http-4.27.0.jar:/Users/apple/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/apple/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.27.0/selenium-ie-driver-4.27.0.jar:/Users/apple/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.27.0/selenium-remote-driver-4.27.0.jar:/Users/apple/.m2/repository/com/google/guava/guava/33.3.1-jre/guava-33.3.1-jre.jar:/Users/apple/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/apple/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/apple/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/apple/.m2/repository/org/checkerframework/checker-qual/3.43.0/checker-qual-3.43.0.jar:/Users/apple/.m2/repository/com/google/errorprone/error_prone_annotations/2.28.0/error_prone_annotations-2.28.0.jar:/Users/apple/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/apple/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.25.0-alpha/opentelemetry-semconv-1.25.0-alpha.jar:/Users/apple/.m2/repository/io/opentelemetry/opentelemetry-api/1.44.1/opentelemetry-api-1.44.1.jar:/Users/apple/.m2/repository/io/opentelemetry/opentelemetry-context/1.44.1/opentelemetry-context-1.44.1.jar:/Users/apple/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.44.1/opentelemetry-exporter-logging-1.44.1.jar:/Users/apple/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.44.1/opentelemetry-sdk-common-1.44.1.jar:/Users/apple/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.44.1/opentelemetry-sdk-extension-autoconfigure-spi-1.44.1.jar:/Users/apple/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.44.1/opentelemetry-sdk-extension-autoconfigure-1.44.1.jar:/Users/apple/.m2/repository/io/opentelemetry/opentelemetry-api-incubator/1.44.1-alpha/opentelemetry-api-incubator-1.44.1-alpha.jar:/Users/apple/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.44.1/opentelemetry-sdk-trace-1.44.1.jar:/Users/apple/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.44.1/opentelemetry-sdk-1.44.1.jar:/Users/apple/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.44.1/opentelemetry-sdk-metrics-1.44.1.jar:/Users/apple/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.44.1/opentelemetry-sdk-logs-1.44.1.jar:/Users/apple/.m2/repository/net/bytebuddy/byte-buddy/1.15.10/byte-buddy-1.15.10.jar:/Users/apple/.m2/repository/org/seleniumhq/selenium/selenium-os/4.27.0/selenium-os-4.27.0.jar:/Users/apple/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/Users/apple/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.27.0/selenium-safari-driver-4.27.0.jar:/Users/apple/.m2/repository/org/seleniumhq/selenium/selenium-support/4.27.0/selenium-support-4.27.0.jar:/Users/apple/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/apple/eclipse-workspace-javaselenium/TestNGExampleWithMaven/target/surefire/surefirebooter-20250930200123158_3.jar /Users/apple/eclipse-workspace-javaselenium/TestNGExampleWithMaven/target/surefire 2025-09-30T20-01-23_119-jvmRun1 surefire-20250930200123158_1tmp surefire_0-20250930200123158_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/apple/eclipse-workspace-javaselenium/TestNGExampleWithMaven/target/test-classes:/Users/apple/eclipse-workspace-javaselenium/TestNGExampleWithMaven/target/classes:/Users/apple/.m2/repository/org/testng/testng/7.9.0/testng-7.9.0.jar:/Users/apple/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/apple/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/apple/.m2/repository/commons-io/commons-io/2.16.1/commons-io-2.16.1.jar:/Users/apple/.m2/repository/org/slf4j/slf4j-api/2.0.7/slf4j-api-2.0.7.jar:/Users/apple/.m2/repository/org/slf4j/slf4j-simple/2.0.17/slf4j-simple-2.0.17.jar:/Users/apple/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/Users/apple/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/apple/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/apple/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/apple/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:/Users/apple/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/apple/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/apple/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/apple/.m2/repository/org/apache/poi/poi/3.7/poi-3.7.jar:/Users/apple/.m2/repository/org/apache/poi/poi-ooxml/3.7/poi-ooxml-3.7.jar:/Users/apple/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/Users/apple/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar:/Users/apple/.m2/repository/org/apache/poi/poi-ooxml-schemas/3.7/poi-ooxml-schemas-3.7.jar:/Users/apple/.m2/repository/org/apache/geronimo/specs/geronimo-stax-api_1.0_spec/1.0/geronimo-stax-api_1.0_spec-1.0.jar:/Users/apple/.m2/repository/org/dom4j/dom4j/2.1.3/dom4j-2.1.3.jar:/Users/apple/.m2/repository/org/apache/xmlbeans/xmlbeans/2.3.0/xmlbeans-2.3.0.jar:/Users/apple/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/Users/apple/.m2/repository/org/seleniumhq/selenium/selenium-java/4.27.0/selenium-java-4.27.0.jar:/Users/apple/.m2/repository/org/seleniumhq/selenium/selenium-api/4.27.0/selenium-api-4.27.0.jar:/Users/apple/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/apple/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.27.0/selenium-chrome-driver-4.27.0.jar:/Users/apple/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/apple/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.27.0/selenium-chromium-driver-4.27.0.jar:/Users/apple/.m2/repository/org/seleniumhq/selenium/selenium-json/4.27.0/selenium-json-4.27.0.jar:/Users/apple/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.27.0/selenium-manager-4.27.0.jar:/Users/apple/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v129/4.27.0/selenium-devtools-v129-4.27.0.jar:/Users/apple/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v130/4.27.0/selenium-devtools-v130-4.27.0.jar:/Users/apple/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v131/4.27.0/selenium-devtools-v131-4.27.0.jar:/Users/apple/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.27.0/selenium-devtools-v85-4.27.0.jar:/Users/apple/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.27.0/selenium-edge-driver-4.27.0.jar:/Users/apple/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.27.0/selenium-firefox-driver-4.27.0.jar:/Users/apple/.m2/repository/org/seleniumhq/selenium/selenium-http/4.27.0/selenium-http-4.27.0.jar:/Users/apple/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/apple/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.27.0/selenium-ie-driver-4.27.0.jar:/Users/apple/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.27.0/selenium-remote-driver-4.27.0.jar:/Users/apple/.m2/repository/com/google/guava/guava/33.3.1-jre/guava-33.3.1-jre.jar:/Users/apple/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/apple/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/apple/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/apple/.m2/repository/org/checkerframework/checker-qual/3.43.0/checker-qual-3.43.0.jar:/Users/apple/.m2/repository/com/google/errorprone/error_prone_annotations/2.28.0/error_prone_annotations-2.28.0.jar:/Users/apple/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/apple/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.25.0-alpha/opentelemetry-semconv-1.25.0-alpha.jar:/Users/apple/.m2/repository/io/opentelemetry/opentelemetry-api/1.44.1/opentelemetry-api-1.44.1.jar:/Users/apple/.m2/repository/io/opentelemetry/opentelemetry-context/1.44.1/opentelemetry-context-1.44.1.jar:/Users/apple/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.44.1/opentelemetry-exporter-logging-1.44.1.jar:/Users/apple/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.44.1/opentelemetry-sdk-common-1.44.1.jar:/Users/apple/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.44.1/opentelemetry-sdk-extension-autoconfigure-spi-1.44.1.jar:/Users/apple/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.44.1/opentelemetry-sdk-extension-autoconfigure-1.44.1.jar:/Users/apple/.m2/repository/io/opentelemetry/opentelemetry-api-incubator/1.44.1-alpha/opentelemetry-api-incubator-1.44.1-alpha.jar:/Users/apple/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.44.1/opentelemetry-sdk-trace-1.44.1.jar:/Users/apple/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.44.1/opentelemetry-sdk-1.44.1.jar:/Users/apple/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.44.1/opentelemetry-sdk-metrics-1.44.1.jar:/Users/apple/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.44.1/opentelemetry-sdk-logs-1.44.1.jar:/Users/apple/.m2/repository/net/bytebuddy/byte-buddy/1.15.10/byte-buddy-1.15.10.jar:/Users/apple/.m2/repository/org/seleniumhq/selenium/selenium-os/4.27.0/selenium-os-4.27.0.jar:/Users/apple/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/Users/apple/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.27.0/selenium-safari-driver-4.27.0.jar:/Users/apple/.m2/repository/org/seleniumhq/selenium/selenium-support/4.27.0/selenium-support-4.27.0.jar:/Users/apple/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/apple"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-07-15"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/apple/eclipse-workspace-javaselenium/TestNGExampleWithMaven"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/apple/eclipse-workspace-javaselenium/TestNGExampleWithMaven/target/surefire/surefirebooter-20250930200123158_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="21.0.8+12-LTS-250"/>
+    <property name="user.name" value="apple"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="15.5"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/apple/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/br/sz6bqb7n2_sg50xwfpcw07q40000gn/T/"/>
+    <property name="java.version" value="21.0.8"/>
+    <property name="user.dir" value="/Users/apple/eclipse-workspace-javaselenium/TestNGExampleWithMaven"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/apple/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.8+12-LTS-250"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="createUser[Chrome, Admin, admin@gmail.com, 987654321](1)" classname="TestCases.suiteB.CreateUser" time="0.01">
+    <system-out><![CDATA[Chrome
+Admin
+admin@gmail.com
+987654321
+--------- 
+]]></system-out>
+  </testcase>
+  <testcase name="createUser[FireFox, SuperAdmin, superadmin@gmail.com, 987654321](2)" classname="TestCases.suiteB.CreateUser" time="0.0">
+    <system-out><![CDATA[FireFox
+SuperAdmin
+superadmin@gmail.com
+987654321
+--------- 
+]]></system-out>
+  </testcase>
+  <testcase name="createUser[Safari, Member, member@gmail.com, 987654321](3)" classname="TestCases.suiteB.CreateUser" time="0.0">
+    <system-out><![CDATA[Safari
+Member
+member@gmail.com
+987654321
+--------- 
+]]></system-out>
+  </testcase>
+  <testcase name="validates" classname="TestCases.suiteA.SoftAssertStudy" time="0.003">
+    <failure message="The following asserts failed:&#10;	expected [Two] but found [One],&#10;	Error:- not greater expected [true] but found [false],&#10;	Error message 1" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+The following asserts failed:
+	expected [Two] but found [One],
+	Error:- not greater expected [true] but found [false],
+	Error message 1
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+	at TestCases.suiteA.SoftAssertStudy.validates(SoftAssertStudy.java:20)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+]]></failure>
+    <system-out><![CDATA[A ------------
+]]></system-out>
+  </testcase>
+  <testcase name="search" classname="TestCases.suiteB.Test1" time="0.001">
+    <system-out><![CDATA[Selecting Function one @Search
+]]></system-out>
+  </testcase>
+  <testcase name="Payment" classname="TestCases.suiteB.Test1" time="0.0">
+    <system-out><![CDATA[Selecting Function Three @Payment
+]]></system-out>
+  </testcase>
+  <testcase name="select" classname="TestCases.suiteB.Test1" time="0.0">
+    <system-out><![CDATA[Selecting Function two @Select
+]]></system-out>
+  </testcase>
+  <testcase name="login" classname="TestCases.suiteA.LoginTest" time="0.001">
+    <failure message=" ---------- A ------------ " type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError:  ---------- A ------------ 
+	at org.testng.Assert.fail(Assert.java:111)
+	at TestCases.suiteA.LoginTest.login(LoginTest.java:16)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+]]></failure>
+  </testcase>
+</testsuite>
