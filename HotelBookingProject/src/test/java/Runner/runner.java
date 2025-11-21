@@ -3,6 +3,7 @@ package Runner;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.poi.util.SystemOutLogger;
 import org.testng.TestNG;
 import org.testng.xml.XmlClass;
 import org.testng.xml.XmlSuite;
@@ -24,6 +25,7 @@ public class runner {
 		classes.add(new XmlClass("testcase.Login"));
 		test.setXmlClasses(classes);
 		testNG.run();
+		System.out.println("  ");
 		
 	}
 
