@@ -225,7 +225,7 @@ public class GenericKeywords {
 	{
 		System.out.println(failureMsg);
 		test.log(Status.FAIL, failureMsg); // fail in extent report
-		softAssert.fail(); // fail in testNG
+		softAssert.fail(); // fail in testNG 000
 		if(stopOnFailure) 
 		{
 			assertAll();
